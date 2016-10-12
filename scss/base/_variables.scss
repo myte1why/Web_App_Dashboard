@@ -1,0 +1,35 @@
+//color list
+$header-color								:#737ABF;
+$left-bar-color								:#4D4C73;
+$main-content-background-color				:#FFFEFF;
+$alert-background-color						:#7277B2;
+
+//font sizes
+$standart-font-size		 				: 15px;
+$medium-font-size						: $standart-font-size * 1.25;
+$large-font-size						: $standart-font-size * 1.75;
+$header-font-size						: $standart-font-size * 2;
+
+// Font family
+$stack-serif							:	serif;
+$stack-serif-Roboto-Slab				:	'Roboto Slab',$stack-serif;
+$stack-serif-Anton						:	'Anton',$stack-serif;
+$stack-sans-serif						:	Arial, sans-serif;
+$stack-Roboto							:	'Roboto',$stack-sans-serif;
+
+$menu-font_family						:$stack-Roboto;
+$text-header-family						:$stack-serif-Anton;
+$paragraph-family						:$stack-serif-Roboto-Slab;
+
+
+// Media query breakpoints
+$phone-width							: 425px;
+$tablet-width							: 768px;
+$desktop-width							: 1024px;
+
+
+.clearfix::after{
+	content: "";
+	display: table;
+	clear: both;
+}

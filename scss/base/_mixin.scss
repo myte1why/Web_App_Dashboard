@@ -1,0 +1,34 @@
+
+@mixin text( $font_family, $size, $hight:null, $weight:null, $color:null){
+	font-size: $size;
+	line-height: $lhight;
+	font-weight: $weight;
+	color: $color;	
+	font-family: $font_family;
+}
+@mixin phone {
+  @media (max-width: #{$phone-width}) {
+    @content;
+  }
+}
+@mixin max-phone {
+  @media (max-width: #{$tablet-width - 1}) {
+    @content;
+  }
+}
+@mixin max-tablet {
+  @media (min-width: #{$desktop-width - 1}) {
+    @content;
+  }
+}
+@mixin tablet {
+  @media (min-width: #{$tablet-width}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$desktop-width}) {
+    @content;
+  }
+}
