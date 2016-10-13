@@ -325,11 +325,23 @@ header{
 			display: inline-flex;
 			height: 5em;
 			width: 100%;
-			align-items: center;	
+			align-items: center;
+				div{
+    					width: 50%;
+				}	
 				img{
 					margin-right: 1em;
 					width: 4em;
 					height: auto;
+				}
+				svg{
+					width: 2em;
+					height: 2em;
+					margin-left: auto;
+   					margin-right: 1em;
+					path{
+						fill: #393779;
+					}
 				}
 			}
 
